@@ -1,0 +1,10 @@
+pillow
+torch
+torchvision
+opencv-python
+matplotlib
+pandas
+ultralytics
+plotly
+keras
+
