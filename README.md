@@ -164,3 +164,5 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 ## 👥 Auteurs
 
 - MOREAU Maxime - [@MaximeCerise](https://github.com/MaximeCerise)
+- JANATI Mehdi -
+- TSAGUE Yannick -
