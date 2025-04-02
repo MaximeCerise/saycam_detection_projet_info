@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ## 📁 Structure du Projet
 
 Structure du projet :
-
+```
 ├── vid/ # Dossier contenant les vidéos source
 ├── extracted_frames/ # Frames extraites des vidéos
 ├── preprocessed_frames/ # Frames après prétraitement
@@ -60,7 +60,7 @@ Structure du projet :
 │ ├── run_detection.py # Détection YOLO
 │ └── run.py # Pipeline complet
 └── requirements.txt # Dépendances du projet
-
+```
 
 ## 🎯 Utilisation
 
