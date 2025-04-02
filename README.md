@@ -139,7 +139,7 @@ python run_detection.py \
 ## 🔍 Résultats
 
 Les résultats sont organisés dans la structure suivante :
-
+```
 output/
 ├── extracted_frames/ # Frames extraites
 │ └── video1/
@@ -150,7 +150,7 @@ output/
 ├── detected_frame_1.jpg
 ├── detected_frame_2.jpg
 └── detections.csv
-
+```
 
 ## 🤝 Contribution
 
