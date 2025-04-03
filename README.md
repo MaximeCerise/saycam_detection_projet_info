@@ -99,8 +99,8 @@ Pour exécuter uniquement la détection sur des frames déjà prétraitées :
 
 ```bash
 python run_detection.py \
-    --input preprocessed_frames/vid1 \
-    --output results/vid1 \
+    --input output/preprocessed_frames/vid* \
+    --output results/vid* \
     --model yolov8x.pt \
     --conf 0.3 \
     --iou 0.5 \
