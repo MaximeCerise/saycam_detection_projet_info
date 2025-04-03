@@ -1,12 +1,17 @@
+.DS_Store
+
 .venv/
 __pycache__/
 .venv/
 .venv
-*.pt
-output/
-.DS_Store
 venv/
-.mp4
+
+*.pt
+
+
+.DS_Store
+
+
 *.mp4
 *.avi
 *.mov
@@ -14,4 +19,8 @@ venv/
 *.mov
 *.avi
 *.mov
+*.log
 
+output/
+results/
+*.html

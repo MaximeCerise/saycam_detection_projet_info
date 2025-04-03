@@ -45,6 +45,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Mettre les vidéos dans 
 ## 📁 Structure du Projet
 
 Structure du projet :
@@ -104,7 +105,6 @@ python run_detection.py \
     --conf 0.3 \
     --iou 0.5 \
     --batch-size 8 \
-    --visualize \
     --device cuda
 ```
 
@@ -151,6 +151,27 @@ output/
 ├── detected_frame_2.jpg
 └── detections.csv
 ```
+### Visualisation des Résultats
+
+Pour visualiser les résultats de la détection de manière interactive :
+
+```bash
+python run_viz.py \
+    --data output/results/vid4/predictions_XXXXXXX_XXXXXX.csv \
+    --video output/result_viz/vid4/
+```
+
+Les arguments sont :
+- `--data` ou `-d` : Chemin vers le fichier CSV contenant les résultats de détection (généralement dans `output/results/vid*/predictions_XXXXXXX_XXXXXX.csv.csv`)
+- `--video` ou `-v` : Chemin vers le dossier contenant les images de visualisation (généralement dans `output/result_viz/vid*/`)
+
+La visualisation s'ouvrira automatiquement dans votre navigateur par défaut. Elle permet de :
+- Voir les trajectoires des objets détectés
+- Naviguer dans le temps avec un slider
+- Cliquer sur les points pour voir l'image correspondante
+- Jouer/pause l'animation
+
+Note : Assurez-vous que les chemins spécifiés correspondent bien à la même vidéo (même numéro dans `vid*`).
 
 ## 🤝 Contribution
 
