@@ -2,7 +2,16 @@
 __pycache__/
 .venv/
 .venv
-vid/*
 *.pt
 output/
 .DS_Store
+venv/
+.mp4
+*.mp4
+*.avi
+*.mov
+*.avi
+*.mov
+*.avi
+*.mov
+

@@ -24,8 +24,8 @@ Ce projet implémente une pipeline complète de traitement vidéo et de détecti
 
 1. Cloner le repository :
 ```bash
-git clone https://github.com/votre-username/video-processing-pipeline.git
-cd video-processing-pipeline
+git clone https://github.com/MaximeCerise/saycam_detection_projet_info.git
+cd saycam_detection_projet_info
 ```
 
 2. Créer et activer un environnement virtuel :
