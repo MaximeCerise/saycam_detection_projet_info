@@ -50,7 +50,6 @@ Mettre les vidéos dans
 
 Structure du projet :
 ```
-├── vid/ # Dossier contenant les vidéos source
 ├── output/ # Dossier principal de sortie
 │   ├── extracted_frames/ # Frames extraites des vidéos
 │   │   └── vid*/ # Dossier par vidéo
