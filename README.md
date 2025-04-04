@@ -147,16 +147,16 @@ python run_detection.py \
 
 Les résultats sont organisés dans la structure suivante :
 ```
-output/
-├── extracted_frames/ # Frames extraites
-│ └── video1/
-├── preprocessed_frames/ # Frames prétraitées
-│ └── video1/
-└── results/ # Résultats de la détection
-└── video1/
-├── detected_frame_1.jpg
-├── detected_frame_2.jpg
-└── detections.csv
+├── output/ # Dossier principal de sortie
+│   ├── extracted_frames/ # Frames extraites des vidéos
+│   │   └── vid*/ # Dossier par vidéo
+│   ├── preprocessed_frames/ # Frames après prétraitement
+│   │   └── vid*/ # Dossier par vidéo
+│   ├── results/ # Résultats de la détection
+│   │   └── vid*/ # Dossier par vidéo
+│   │       └── predictions_*.csv # Fichiers de prédictions
+│   └── result_viz/ # Visualisations des résultats sur les frames
+│       └── vid*/ # Dossier par vidéo
 ```
 ### Visualisation des Résultats
 
