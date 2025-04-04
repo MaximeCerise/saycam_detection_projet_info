@@ -51,15 +51,23 @@ Mettre les vidéos dans
 Structure du projet :
 ```
 ├── vid/ # Dossier contenant les vidéos source
-├── extracted_frames/ # Frames extraites des vidéos
-├── preprocessed_frames/ # Frames après prétraitement
-├── results/ # Résultats de la détection
-├── scripts/
-│ ├── extract_frames.py # Extraction des frames
-│ ├── preprocessing.py # Prétraitement des images
-│ ├── batch_preprocessing.py # Traitement par lots
-│ ├── run_detection.py # Détection YOLO
-│ └── run.py # Pipeline complet
+├── output/ # Dossier principal de sortie
+│   ├── extracted_frames/ # Frames extraites des vidéos
+│   │   └── vid*/ # Dossier par vidéo
+│   ├── preprocessed_frames/ # Frames après prétraitement
+│   │   └── vid*/ # Dossier par vidéo
+│   ├── results/ # Résultats de la détection
+│   │   └── vid*/ # Dossier par vidéo
+│   │       └── predictions_*.csv # Fichiers de prédictions
+│   └── result_viz/ # Visualisations des résultats
+│       └── vid*/ # Dossier par vidéo
+├── extract_frames.py # Extraction des frames
+├── preprocessing.py # Prétraitement des images
+├── batch_preprocessing.py # Traitement par lots
+├── run_detection.py # Détection YOLO
+├── run_viz.py # Visualisation des résultats
+├── run.py # Pipeline complet
+├── vizualize.py # Module de visualisation
 └── requirements.txt # Dépendances du projet
 ```
 
